@@ -3,18 +3,7 @@
 {% block main %} 
   <form action="" method="GET">
     {% csrf_token %}
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="city">City</span>
-      </div>
-      <input type="text" class="form-control" name="city" id="city" aria-describedby="city">
-    </div>
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="lang">Language</span>
-      </div>
-      <input type="text" class="form-control" name="lang"  id="lang" aria-describedby="lang">
-    </div>
+    {{ form.as_p }}
     <button type="submit" class="btn btn-primary">Primary</button>
   </form>
 

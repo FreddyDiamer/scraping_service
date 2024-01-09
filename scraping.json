@@ -1,0 +1,33 @@
+[
+  {
+    "model": "scraping.city",
+    "pk": 1,
+    "fields": {
+      "name": "London",
+      "slug": "test"
+    }
+  },
+  {
+    "model": "scraping.language",
+    "pk": 1,
+    "fields": {
+      "name": "Python",
+      "slug": "Python"
+    }
+  },
+  {
+    "model": "scraping.vacancy",
+    "pk": 1,
+    "fields": {
+      "url": "http://google.com",
+      "salary": "5000P",
+      "title": "Python",
+      "company": "Sber",
+      "description": "verbose_name_plural = 'Languages'",
+      "date": "2024-01-05",
+      "lang": 1,
+      "city": 1,
+      "timestamp": "2024-01-05"
+    }
+  }
+]
